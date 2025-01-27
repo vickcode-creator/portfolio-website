@@ -82,90 +82,9 @@ let progressreact = setInterval(() => {
   }
 }, rjsspeed);
 
-//java
-let javaProgress = document.querySelector(".java"),
-  javaValue = document.querySelector(".javaprogress");
-
-let javaStartValue = 0,
-  javaEndValue = 70,
-  javaspeed = 30;
-
-let progressjava = setInterval(() => {
-  javaStartValue++;
-
-  javaValue.textContent = `${javaStartValue}%`;
-  javaProgress.style.background = `conic-gradient(#fca61f ${
-    javaStartValue * 3.6
-  }deg,rgba(218, 215, 215, 0.98) 0deg)`;
-
-  if (javaStartValue == javaEndValue) {
-    clearInterval(progressjava);
-  }
-}, javaspeed);
-
-//python
-let pythonProgress = document.querySelector(".python"),
-  pythonValue = document.querySelector(".pythonprogress");
-
-let pythonStartValue = 0,
-  pythonEndValue = 100,
-  pythonspeed = 30;
-
-let progresspython = setInterval(() => {
-  pythonStartValue++;
-
-  pythonValue.textContent = `${pythonStartValue}%`;
-  pythonProgress.style.background = `conic-gradient(#fca61f ${
-    pythonStartValue * 3.6
-  }deg,rgba(218, 215, 215, 0.98) 0deg)`;
-
-  if (pythonStartValue == pythonEndValue) {
-    clearInterval(progresspython);
-  }
-}, pythonspeed);
-
-//dart
-let dartProgress = document.querySelector(".dart"),
-  dartValue = document.querySelector(".dartprogress");
-
-let dartStartValue = 0,
-  dartEndValue = 70,
-  dartspeed = 30;
-
-let progressdart = setInterval(() => {
-  dartStartValue++;
-
-  dartValue.textContent = `${dartStartValue}%`;
-  dartProgress.style.background = `conic-gradient(#fca61f ${
-    dartStartValue * 3.6
-  }deg,rgba(218, 215, 215, 0.98) 0deg)`;
-
-  if (dartStartValue == dartEndValue) {
-    clearInterval(progressdart);
-  }
-}, dartspeed);
 
 
-//flask
-let flaskProgress = document.querySelector(".flask"),
-  flaskValue = document.querySelector(".flaskprogress");
 
-let flaskStartValue = 0,
-  flaskEndValue = 50,
-  flaskspeed = 30;
-
-let progressflask = setInterval(() => {
-  flaskStartValue++;
-
-  flaskValue.textContent = `${flaskStartValue}%`;
-  flaskProgress.style.background = `conic-gradient(#fca61f ${
-    flaskStartValue * 3.6
-  }deg,rgba(218, 215, 215, 0.98) 0deg)`;
-
-  if (flaskStartValue == flaskEndValue) {
-    clearInterval(progressflask);
-  }
-}, flaskspeed);
 
 
 
