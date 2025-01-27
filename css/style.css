@@ -110,7 +110,9 @@ body{
 /* adding animation to home section image  */
 .home img{
     animation: floatimg 4s ease-in-out infinite;
-    border-radius: 50%
+    border-radius: 50%;
+    width:100%;
+    height:auto;
 }
 .text-muted{
     color: #6f34fe;
@@ -262,7 +264,8 @@ body{
 /* testimonial section starts */
 .img-fluid{
     animation: floatimg 4s ease-in-out infinite;
-    border-radius: 50%
+    border-radius: 50%;
+    height:auto;
 }
 .testimonial img:hover{
     transform: scale(1.2,1.2);
