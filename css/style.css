@@ -2,13 +2,23 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
+    background:
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(red, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+    /*background-image: linear-gradient(rgb(53, 62, 159) 0%, rgba(255, 0, 0, 0) 100%);*/
+    /*background-color:#000080;*/
+    /*background: linear-gradient(33deg, rgba(20, 20, 93, 0.497) 100%, rgba(39, 39, 73, 0.318) 50%);
+    padding: 30px 0px 10px 0px;*/
 }
+    
 /* styling menu icon */
 .nav-menu{
     border: none;
-    background-color: #fff;
+    background-color: #304f42;
     font-size: 1.5rem;
-    color: #fca61f;
+    color: #4313a4;
 }
 /* styling navbar links  */
 .navbar-nav a{
@@ -16,9 +26,9 @@ body{
     position: relative;
 }
 .navbar-nav a:hover{
-    color: #fca61f;
+    color: #0b9d23;
 }
-.navbar-nav a:after {    
+.navbar-nav a:after {  
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -38,13 +48,17 @@ body{
   /* styling contact btn  */
 .c-btn{
     border: none;
-    background: #fca61f;
-    color: #fff;
+    background: #0fc321;
+    color: #09110a;
     font-size: 1.2rem;
 }
 /* styling home section starts */
 .home{
-    background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
+    
+   /* background: linear-gradient(33deg, rgba(3, 46, 32, 0.915) 10%, rgba(15, 14, 14, 0.318) 70%);
+    padding: 30px 0px 10px 0px;*/
+    /*background-color: rgb(234, 234, 249);*/
+    background: linear-gradient(33deg,  rgb(39, 39, 73) 50%);
     padding: 30px 0px 10px 0px;
 }
 .home h2{
@@ -52,7 +66,7 @@ body{
     line-height: 4rem;
 }
 .c-orange{
-    color: #6f34fe;
+    color: #0875e9e1;
     font-weight: 700;
     font-size: 4rem;
 }
@@ -96,6 +110,10 @@ body{
 /* adding animation to home section image  */
 .home img{
     animation: floatimg 4s ease-in-out infinite;
+    border-radius: 50%
+}
+.text-muted{
+    color: #6f34fe;
 }
 
 @keyframes floatimg {
@@ -111,6 +129,7 @@ body{
 }
 
 /* expertise section starts */
+
 .heading small{
     color: #6f34fe;
     font-size: 1.5rem;
@@ -141,10 +160,11 @@ body{
 
 /* skill section starts */
 .skill{
-    background-color: rgb(234, 234, 249);
+    /*background-color: #0b7a3f;*/
+    background-image: url('bacground2.jpeg');
 }
 .progress-card{
-    padding: 12% 10% 10% 15%;
+    padding: 12% 10% 10% 15% ;
     background-color: #fff;
     text-align: center;
     border-radius: 10%;
@@ -188,6 +208,20 @@ body{
 .reactjs-progress{
     color: #3f396d;
 }
+
+
+.java-progress{
+    color: #fc1f7f;
+}
+.python-progress{
+    color: #6f34fe;
+}
+.dart-progress{
+    color: #20c997;
+}
+.flak-progress{
+    color: #3f396d;
+}
 .text{
     font-size: 1.2rem;
     font-weight: 500;
@@ -226,6 +260,10 @@ body{
 }
 
 /* testimonial section starts */
+.img-fluid{
+    animation: floatimg 4s ease-in-out infinite;
+    border-radius: 50%
+}
 .testimonial img:hover{
     transform: scale(1.2,1.2);
     transition-duration: 1s;
@@ -255,7 +293,7 @@ body{
 
 /* blog section starts */
 .blog{
-    background-color: #f2f2ff;
+    background-color: linear-gradient(33deg, rgba(3, 46, 32, 0.915) 60%, rgba(15, 14, 14, 0.318) 10%);
 }
 .blog .blogpost .card{
     border: none;
