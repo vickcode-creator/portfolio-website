@@ -112,9 +112,10 @@ body{
    /* animation: floatimg 4s ease-in-out infinite;*/
     border-radius: 50%;
     height:auto;
-    width: 100%; /* Adjust width to fit container */
-    max-width: 500px; /* Set a maximum size */
+    object-fit: cover;
+   
 }
+
 .text-muted{
     color: #6f34fe;
 }
