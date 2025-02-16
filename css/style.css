@@ -336,7 +336,7 @@ body{
 
 /* testimonial section starts */
 .img-fluid{
-    animation: floatimg 4s ease-in-out infinite;
+    /*animation: floatimg 4s ease-in-out infinite;*/
     border-radius: 50%;
     height:auto;
 }
