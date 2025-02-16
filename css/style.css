@@ -111,11 +111,9 @@ body{
 .home img{
    /* animation: floatimg 4s ease-in-out infinite;*/
     border-radius: 50%;
-    width:100%;
     height:auto;
-    display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%; /* Adjust width to fit container */
+    max-width: 500px; /* Set a maximum size */
 }
 .text-muted{
     color: #6f34fe;
