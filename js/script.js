@@ -175,5 +175,7 @@ const defaultEmail = "victormacharia002@gmail.com";
       }
 
       let whatsappLink = `https://wa.me/${defaultPhone.replace("+", "")}?text=${encodeURIComponent("Hello " + name + ", " + message)}`;
-      window.open(whatsappLink, "_blank");
+      //window.open(whatsappLink, "_blank");
+      window.location.href = whatsappLink;
+
   }
