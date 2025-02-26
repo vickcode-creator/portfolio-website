@@ -162,7 +162,7 @@ const defaultEmail = "victormacharia002@gmail.com";
       }
 
       let mailtoLink = `mailto:${defaultEmail}?subject=Contact from ${name}&body=${encodeURIComponent(message)}`;
-      window.location.href = mailtoLink;
+      window.open(mailtoLink, "_self");  // More reliable on mobile
   }
 
   function sendWhatsApp() {
@@ -174,8 +174,6 @@ const defaultEmail = "victormacharia002@gmail.com";
           return;
       }
 
-      let whatsappLink = `https://wa.me/${defaultPhone.replace("+", "")}?text=${encodeURIComponent("Hello " + name + ", " + message)}`;
-      //window.open(whatsappLink, "_blank");
-      window.location.href = whatsappLink;
-
+      let whatsappLink = `https://api.whatsapp.com/send?phone=${defaultPhone.replace("+", "")}&text=${encodeURIComponent("Hello " + name + ", " + message)}`;
+      window.location.href = whatsappLink;  // More reliable on mobile
   }
