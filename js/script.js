@@ -148,3 +148,32 @@ mybutton.addEventListener("click",function(){
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 });
+
+const defaultEmail = "victormacharia002@gmail.com";
+  const defaultPhone = "+254717372882";
+
+  function sendEmail() {
+      let name = document.getElementById("nameInput").value;
+      let message = document.getElementById("messageInput").value;
+
+      if (!name || !message) {
+          alert("Please enter your name and message.");
+          return;
+      }
+
+      let mailtoLink = `mailto:${defaultEmail}?subject=Contact from ${name}&body=${encodeURIComponent(message)}`;
+      window.location.href = mailtoLink;
+  }
+
+  function sendWhatsApp() {
+      let name = document.getElementById("nameInput").value;
+      let message = document.getElementById("messageInput").value;
+
+      if (!name || !message) {
+          alert("Please enter your name and message.");
+          return;
+      }
+
+      let whatsappLink = `https://wa.me/${defaultPhone.replace("+", "")}?text=${encodeURIComponent("Hello " + name + ", " + message)}`;
+      window.open(whatsappLink, "_blank");
+  }

@@ -100,10 +100,10 @@
             Hello! I Am <br /><span class="c-orange">Mugai Victor</span>
           </h2>
           <p  style="color: #e3e2e7">
-            I'm A Data Science and Machine Learning Engineer with expertise in building data-driven solutions to solve complex problems. Skilled in data analysis, predictive modeling, and deploying machine learning algorithms to drive business insights and decision-making
+            I'm a Data Science & ML Engineer with a Computer Science degree, skilled in data analysis, predictive modeling, and AI solutions.
           </p>
           <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
-            Hire Me
+            <a class="nav-link" href="#portfolio">My Projects</a>
           </button>
           <a href="" class="link ms-4 d-none">See My Work</a>
         </div>
@@ -175,52 +175,9 @@
     <!-- skill section starts -->
     <section class="skill mt-5 py-5" id="about",style="background-image: url('mobiledeveloper.png');">
       <div class="row justify-content-evenly">
-        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
-          <div class="row justify-content-evenly">
+        
 
-            <div class="col-10 col-md-6">
-              <div class="progress-card ms-3 ms-md-0">
-                <div class="circular-progress html-css">
-                  <span class="progress-value html-progress">0%</span>
-                </div>
-                <br />
-                <span class="text">HTML & CSS</span>
-              </div>
-            </div>
-            <div class="col-10 col-md-6 mt-4 mt-md-0">
-              <div class="progress-card ms-3 ms-md-0">
-                <div class="circular-progress javascript">
-                  <span class="progress-value javascript-progress">0%</span>
-                </div>
-                <br />
-                <span class="text">JavaScript</span>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-evenly mt-4">
-            <div class="col-10 col-md-6">
-              <div class="progress-card ms-3 ms-md-0">
-                <div class="circular-progress php">
-                  <span class="progress-value php-progress">0%</span>
-                </div>
-                <br />
-                <span class="text">PHP</span>
-              </div>
-            </div>
-            <div class="col-10 col-md-6 mt-4 mt-md-0">
-              <div class="progress-card ms-3  ms-md-0">
-                <div class="circular-progress reactjs">
-                  <span class="progress-value reactjs-progress">0%</span>
-                </div>
-                <br>
-                <span class="text">ReactJS</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-center">
           <div class="row justify-content-evenly">
             <div class="skillbar clearfix " data-percent="80%">
               <div class="skillbar-title" style="background: #EBB035;"><span>CSS3</span></div>
@@ -261,12 +218,10 @@
             <small>My Skills</small>
             <h3>Beautiful & Unique Digital Experiences</h3>
             <p  style="color: #e3e2e7">
-              I excel in leveraging data science, machine learning, and cross-platform development to create innovative solutions,
-               by analyzing complex data, 
-              developing predictive models, and building versatile web applications and applications.
+              I excel in leveraging data science and  machine learning to solve real word problems.
             </p>
             <p  style="color: #e3e2e7" >
-              I deliver impactful, efficient, and scalable systems tailored to solve real-world challenges effectively.
+              I deliver impactful, efficient, and scalable systems.
             </p>
             <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
               <!-- here download attribute is used for adding download functionality to button  -->
@@ -779,7 +734,8 @@
     <section class="contact py-5" id="contact">
       <div class="heading text-center">
         <small>Get in Touch</small>
-        <h3>Any Questions? Feel Free to Contact</h3>
+        <h3>For hiring,source codes and questions<br> Feel Free to Contact me</h3>
+
       </div>
       <div class="row justify-content-evenly mt-5">
         <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
@@ -788,7 +744,7 @@
               <i class="bi bi-geo-alt-fill"></i>
             </div>
             <div class="col-11">
-              <p>121 King Street Melbourne, 3000, Australia</p>
+              <p>00100, Nairobi</p>
             </div>
           </div>
           <div class="row justify-content-evenly">
@@ -796,7 +752,7 @@
               <i class="bi bi-telephone-fill"></i>
             </div>
             <div class="col-11">
-              <p>+254 717372882</p>
+              <p id="defaultPhone">+254 717372882</p>
             </div>
           </div>
           <div class="row justify-content-evenly">
@@ -804,7 +760,7 @@
               <i class="bi bi-send-fill"></i>
             </div>
             <div class="col-11">
-              <p>victormacharia002@gmail.com</p>
+              <p id="defaultEmail">victormacharia002@gmail.com</p>
             </div>
           </div>
           <div class="row justify-content-evenly">
@@ -812,51 +768,25 @@
               <i class="bi bi-globe-americas"></i>
             </div>
             <div class="col-11">
-              <p>codingpawan.com</p>
+              <p>MugaiVictor.me</p>
             </div>
           </div>
         </div>
         <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
           <div class="contact-form">
             <div class="mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Name"
-              />
+              <input type="text" class="form-control" id="nameInput" placeholder="Enter Your Name" />
             </div>
             <div class="mb-3">
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="E-mail"
-              />
+              <textarea class="form-control" id="messageInput" placeholder="Enter Your Message" rows="5"></textarea>
             </div>
-            <div class="mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Mobile No."
-              />
-            </div>
-            <div class="mb-3">
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                placeholder="Message"
-                rows="5"
-              ></textarea>
-            </div>
-            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
-              Submit
-            </button>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" onclick="sendEmail()">Send Email</button>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" onclick="sendWhatsApp()">Send WhatsApp</button>
           </div>
         </div>
       </div>
     </section>
+    
     <!-- contact section ends here -->
 
       <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
