@@ -496,3 +496,15 @@ footer .link-group a:hover{
     color: #fff;
     animation: pulse 3s infinite;
 }
+video {
+    width: 100%; /* Make it responsive */
+    height: auto;
+    display: block; /* Prevent unwanted spacing */
+    position: relative;
+    z-index: 10; /* Ensure it is above other elements */
+    pointer-events: auto; /* Ensure clicks work */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+.card {
+    overflow: hidden; /* Ensures video fits properly */
+}
