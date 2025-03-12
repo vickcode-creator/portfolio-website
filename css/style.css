@@ -484,6 +484,86 @@ footer .link-group a:hover{
 .social-links .behance:hover{
     background-color: #255afc;
 }
+.skillbar-bar {
+    width: 0%;
+    height: 10px; /* Adjust as needed */
+    transition: width 2s ease-in-out;
+}
+
+.skillbar {
+    position: relative;
+    display: block;
+    margin: 15px 0;
+    height: 30px;
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skillbar-title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skillbar-bar {
+    height: 100%;
+    width: 0; /* Start at 0% */
+    transition: width 1.5s ease-in-out;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.skillbar2 {
+    position: relative;
+    display: block;
+    margin: 15px 0;
+    height: 30px;
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skillbar-title2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500px;
+    height: 100%;
+    line-height: 30px;
+    color: rgb(25, 127, 132);
+    text-align: center;
+    font-weight: bold;
+}
+
+.skillbar-bar2 {
+    height: 100%;
+    width: 0; /* Start at 0% */
+    transition: width 1.5s ease-in-out;
+}
+
+.skill-bar-percent2 {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 30px;
+    font-weight: bold;
+}
+
 
 /* styling back to top button */
 #btn-back-to-top {

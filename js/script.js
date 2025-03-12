@@ -124,6 +124,24 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 // adding funtionality to back to top button 
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".skillbar").forEach(skillbar => {
+      let percent = skillbar.getAttribute("data-percent");
+      let color = skillbar.getAttribute("data-color");
+      let bar = skillbar.querySelector(".skillbar-bar");
+      let title = skillbar.querySelector(".skillbar-title");
+
+      // Apply color
+      bar.style.background = color;
+      title.style.background = color;
+
+      // Animate width
+      setTimeout(() => {
+          bar.style.width = percent;
+      }, 300);
+  });
+});
+
 
 
 //Get the button
