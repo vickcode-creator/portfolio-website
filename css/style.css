@@ -527,6 +527,18 @@ footer .link-group a:hover{
     line-height: 30px;
     font-weight: bold;
 }
+.skillbar-title-only {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    width: 60%; /* Adjust width as needed */
+    margin: 10px auto; /* Centers the title */
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
 
 .skillbar-title2 {
     position: absolute;
