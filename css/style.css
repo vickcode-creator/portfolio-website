@@ -486,14 +486,15 @@ footer .link-group a:hover{
 }
 .skillbar-bar {
     width: 0%;
-    height: 10px; /* Adjust as needed */
+    height: 1px; /* Adjust as needed */
     transition: width 2s ease-in-out;
+    
 }
 
 .skillbar {
     position: relative;
     display: block;
-    margin: 15px 0;
+    margin: 5px 0;
     height: 30px;
     width: 100%;
     background: #ddd;
@@ -527,17 +528,6 @@ footer .link-group a:hover{
     font-weight: bold;
 }
 
-.skillbar2 {
-    position: relative;
-    display: block;
-    margin: 15px 0;
-    height: 30px;
-    width: 100%;
-    background: #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
 .skillbar-title2 {
     position: absolute;
     left: 0;
@@ -552,7 +542,7 @@ footer .link-group a:hover{
 
 .skillbar-bar2 {
     height: 100%;
-    width: 0; /* Start at 0% */
+    width: 100%; /* Start at 0% */
     transition: width 1.5s ease-in-out;
 }
 
