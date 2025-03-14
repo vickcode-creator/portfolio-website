@@ -528,7 +528,7 @@ footer .link-group a:hover{
     font-weight: bold;
 }
 .skillbar-title-only {
-    text-align: center;
+    text-align: start;
     font-size: 18px;
     font-weight: bold;
     color: #333;
@@ -548,7 +548,7 @@ footer .link-group a:hover{
     height: 100%;
     line-height: 30px;
     color: rgb(25, 127, 132);
-    text-align: center;
+    text-align: start;
     font-weight: 0;
 }
 
